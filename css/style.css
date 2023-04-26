@@ -41,8 +41,7 @@ body {
   height: 100%;
   background-color: var(--white-bg);
   color: var(--text-color);
-  transition: background-color 0.4s ease,
-              color 0.4s ease;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 img {
@@ -127,4 +126,108 @@ button {
   margin-left: 8px;
   font-weight: 600;
   line-height: 22px;
+}
+
+/* FILTERS */
+
+.countries-form-section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filters-search-input {
+  min-width: 480px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border: none;
+  border-radius: 5px;
+  padding: 18px 74px;
+  background-color: var(--white-bg);
+  color: var(--text-color);
+}
+.filters-select {
+  min-width: 200px;
+  padding: 18px 24px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  background-color: var(--white-bg);
+  color: var(--text-color);
+}
+
+/* INDEX COUNTRIES */
+
+.index-countries {
+  padding-top: 25px;
+}
+.index-countries-inner {
+}
+.index-countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-left: -75px;
+  margin-bottom: -75px;
+}
+.index-countries-item {
+  width: calc(25% - 75px);
+  margin-left: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+}
+.index-country {
+  background-color: var(--white-bg);
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.index-country-flag {
+  width: 267px;
+  height: 160px;
+  margin-bottom: 24px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  object-fit: cover;
+}
+.index-country-info {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 46px;
+  color: var(--text-color);
+  flex-grow: 1;
+}
+.index-country-name {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.index-country-link{
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.index-country-text {
+  font-weight: 300;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.index-country-text:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.index-country-text-bold {
+  font-weight: 600;
 }

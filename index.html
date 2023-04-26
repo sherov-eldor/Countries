@@ -27,7 +27,7 @@
         <button class="button button-dark-theme-toggler">
           <span class="button-inner">
             <svg
-            class="button-dark-mode-toggler-icon"
+              class="button-dark-mode-toggler-icon"
               width="20"
               height="20"
               viewBox="0 0 20 20"
@@ -53,125 +53,137 @@
 
       <section class="countries-form-section">
         <div class="container">
-          <div class="countries-form-section-inner">
-            <form class="countries-form">
-              <div class="form-group">
-                <label class="form-label">
-                  <input
-                    type="text"
-                    class="form-input"
-                    placeholder="Search for a country…"
-                  />
-                </label>
-              </div>
-              <div class="form-group">
-                <select class="form-select" name="">
-                  <option class="form-option" value="Filter by Region">
-                    Filter by Region
-                  </option>
-                  <option class="form-option" value="Africa">Africa</option>
-                  <option class="form-option" value="America">America</option>
-                  <option class="form-option" value="Asia">Asia</option>
-                  <option class="form-option" value="Europe">Europe</option>
-                  <option class="form-option" value="Oceania">Oceania</option>
-                </select>
-              </div>
-            </form>
-          </div>
+          <form class="filters">
+            <input
+              class="filters-search-input"
+              name="search"
+              type="search"
+              placeholder="Search for a country…"
+            />
+
+            <select class="filters-select" name="region">
+              <option class="filters-option" selected disabled>
+                Filter by Region
+              </option>
+              <option class="filters-option" value="Africa">Africa</option>
+              <option class="filters-option" value="America">America</option>
+              <option class="filters-option" value="Asia">Asia</option>
+              <option class="filters-option" value="Europe">Europe</option>
+              <option class="filters-option" value="Oceania">Oceania</option>
+            </select>
+          </form>
         </div>
       </section>
 
-      <!-- COUNTRIES SECTION -->
+      <!-- INDEX COUNTRIES-->
 
-      <section class="countries">
+      <section class="index-countries">
         <div class="container">
-          <div class="countries-inner">
-            <ul class="countries-list">
-              <li class="countries-item">
-                <div class="countries-item-inner">
+          <div class="index-countries-inner">
+            <ul class="index-countries-list">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/germany.jpg"
                     alt="country flag"
                     srcset="./images/germany.jpg 1x, ./images/germany@2x.jpg 2x"
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Germany</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Germany
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       81,770,900
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Europe
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Berlin
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/usa.jpg"
                     alt="country flag"
                     srcset="./images/usa.jpg 1x, ./images/usa@2x.jpg 2x"
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">United States of America</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        United States of America
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       323,947,000
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Americas
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Washington, D.C.
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/brazil.jpg"
                     alt="country flag"
                     srcset="./images/brazil.jpg 1x, ./images/brazil@2x.jpg 2x"
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Brazil</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Brazil
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       206,135,893
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Americas
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Brasília
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/iceland.jpg"
                     alt="country flag"
                     srcset="
@@ -181,27 +193,33 @@
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Iceland</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Iceland
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       334,300
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Europe
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Reykjavík
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/afganistan.jpg"
                     alt="country flag"
                     srcset="
@@ -211,27 +229,33 @@
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Afghanistan</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Afghanistan
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       27,657,145
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Asia
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Kabul
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/aland-islands.jpg"
                     alt="country flag"
                     srcset="
@@ -241,27 +265,33 @@
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Åland Islands</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Åland Islands
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       28,875
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Europe
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Mariehamn
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/albania.jpg"
                     alt="country flag"
                     srcset="
@@ -271,27 +301,33 @@
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Albania</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Albania
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       2,886,026
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Europe
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Tirana
                     </p>
                   </div>
                 </div>
               </li>
-              <li class="countries-item">
-                <div class="countries-item-inner">
+              <li class="index-countries-item">
+                <div class="index-country">
                   <img
-                    class="country-img"
+                    class="index-country-flag"
                     src="./images/algeria.jpg"
                     alt="country flag"
                     srcset="
@@ -301,18 +337,24 @@
                     width="267"
                     height="160"
                   />
-                  <div class="countries-info">
-                    <h2 class="country-name">Algeria</h2>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Population: </strong>
+                  <div class="index-country-info">
+                    <h2 class="index-country-name">
+                      <a href="country.html" class="index-country-link">
+                        Algeria
+                      </a>
+                    </h2>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold"
+                        >Population:
+                      </strong>
                       40,400,000
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Region: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Region: </strong>
                       Africa
                     </p>
-                    <p class="country-text">
-                      <strong class="country-text-bold">Capital: </strong>
+                    <p class="index-country-text">
+                      <strong class="index-country-text-bold">Capital: </strong>
                       Algiers
                     </p>
                   </div>
