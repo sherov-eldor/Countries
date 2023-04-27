@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Page</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="body">
+    <!-- SITE HEADER -->
+
+    <header class="site-header">
+      <div class="site-header-container container">
+        <a href="index.html" class="site-header-logo">Where in the world?</a>
+        <button class="button button-dark-theme-toggler">
+          <span class="button-inner">
+            <svg
+              class="button-dark-mode-toggler-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M13.5532 13.815C9.66857 13.815 6.51929 10.9278 6.51929 7.36821C6.51929 6.0253 6.96679 4.78158 7.73143 3.75C4.69036 4.69515 2.5 7.33122 2.5 10.4381C2.5 14.3385 5.94929 17.5 10.2036 17.5C13.5929 17.5 16.4696 15.4932 17.5 12.7045C16.375 13.4048 15.0161 13.815 13.5532 13.815Z"
+                fill="white"
+                stroke="currentColor"
+                stroke-width="1.25"
+              />
+            </svg>
+            <span class="button-text">Dark Mode</span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="to-back-content">
+          <a href="index.html" class="to-back-content-link">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="call-back">
+                <path
+                  id="Shape"
+                  fill-rule="evenodd"
+                  clip-rule="currentColor"
+                  d="M6.46447 4.10744L7.64298 5.28596L3.75389 9.17504L18.6031 9.17504L18.6031 10.825L3.75389 10.825L7.64298 14.714L6.46447 15.8926L0.57191 10L6.46447 4.10744Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+            Back
+          </a>
+        </div>
+      </div>
+
+      <!-- COUNTRY CONTENT -->
+
+      <section class="country-content">
+        <div class="container">
+          <div class="country-content-inner">
+            <img
+              src="./images/belgium.jpg"
+              alt="country flag"
+              srcset="./images/belgium.jpg 1x, ./images/belgium@2x.jpg 2x"
+              class="country-img"
+              width="560"
+              height="400"
+            />
+            <div class="country-typography">
+              <h3 class="country-name">Belgium</h3>
+              <div class="country-info">
+                <div class="country-info-left">
+                  <p class="country-text">
+                    <strong class="country-text-bold">Native Name: </strong>
+                    België
+                  </p>
+                  <p class="country-text">
+                    <strong class="country-text-bold">Population: </strong>
+                    11,319,511
+                  </p>
+                  <p class="country-text">
+                    <strong class="country-text-bold">Region: </strong>
+                    Europe
+                  </p>
+                  <p class="country-text">
+                    <strong class="country-text-bold">Sub Region: </strong>
+                    Western Europe
+                  </p>
+                  <p class="country-text">
+                    <strong class="country-text-bold">Capital: </strong>
+                    Brussels
+                  </p>
+                </div>
+                <div class="country-info-right">
+                  <p class="country-text">
+                    <strong class="country-text-bold"
+                      >Top Level Domain:
+                    </strong>
+                    .be
+                  </p>
+                  <p class="country-text">
+                    <strong class="country-text-bold">Currencies: </strong>
+                    Euro
+                  </p>
+                  <p class="country-text">
+                    <strong class="country-text-bold">Languages: </strong>
+                    Dutch, French, German
+                  </p>
+                </div>
+              </div>
+              <div class="country-info-bottom">
+                <p class="country-text">
+                  <strong class="country-text-bold country-border">Border Countries: </strong>
+                  <span class="country-text-bordered">France</span>
+                  <span class="country-text-bordered">Germany</span>
+                  <span class="country-text-bordered">Netherlands</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
